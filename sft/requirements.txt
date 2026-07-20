@@ -1,0 +1,23 @@
+# Core runtime dependencies (tested on CUDA 12.9; versions are lower bounds).
+torch==2.8.0
+torchaudio==2.8.0
+diffusers==0.37.1
+scipy==1.16.3
+transformers==4.57.6
+accelerate==1.11.0
+tokenizers==0.22.1
+sentencepiece==0.2.1
+flash-attn==2.8.1
+torchdata==0.11.0
+numpy==1.26.4
+Pillow==12.0.0
+safetensors==0.6.2
+pyarrow==22.0.0
+einops==0.8.1
+librosa==0.11.0
+soundfile==0.13.1
+tqdm==4.67.1
+
+# Optional:
+#   tensorboard>=2.14    # only with --tensorboard_dir
+#   grouped_gemm>=0.1.4  # only with --use_grouped_gemm (faster MoE, more memory)
