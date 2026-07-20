@@ -331,14 +331,13 @@ messages = [
 
 
 
-## SFT
-
-We provide supervised fine-tuning (SFT) code for LongCat-Next, built on PyTorch FSDP2. It supports understanding (image+text → text), generation (text → image), and unified mixed-sample training. See [`sft/`](./sft) and its [README](./sft/README.md) for setup, data preparation, and example training scripts.
-
 ## Deployment
 
 We have implemented basic adaptations in SGLang to support the deployment of LongCat-Next. Please refer to this repository for more information: [meituan-longcat/LongCat-Next-inference](https://github.com/meituan-longcat/LongCat-Next-inference)
 
+## SFT
+
+We provide supervised fine-tuning (SFT) code for LongCat-Next, built on PyTorch FSDP2. It supports understanding (image+text → text), generation (text → image), and unified mixed-sample training. See [`sft/`](./sft) and its [README](./sft/README.md) for setup, data preparation, and example training scripts.
 
 
 ## License Agreement
